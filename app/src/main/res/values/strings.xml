@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tornadone</string>
+    <string name="notification_channel_name">Gesture Detection</string>
+    <string name="notification_channel_description">Listening for Z gesture</string>
+    <string name="notification_title">Tornado is active</string>
+    <string name="notification_text">Listening for Z gesture…</string>
+</resources>

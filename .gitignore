@@ -1,5 +1,6 @@
 *.iml
 .gradle
+.kotlin
 /local.properties
 /.idea
 .DS_Store
@@ -10,3 +11,19 @@
 .cxx
 local.properties
 CLAUDE.md
+.claude
+.venv
+
+# ONNX models — downloaded at runtime, never bundled in source
+whisper-*-onnx/
+whisper-*-onnx-merged/
+app/src/main/assets/*.onnx
+
+# Audio files
+*.wav
+
+# Keystore — decoded from CI secrets, must never be committed
+*.jks
+
+# Node / semantic-release tooling
+node_modules/

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "sample_en.wav",
+    "expected": "buy milk and call the dentist",
+    "language": "en",
+    "notes": "English, clear speech"
+  },
+  {
+    "file": "mleko_pl.wav",
+    "expected": "kup mleko i zadzwoń do dentysty",
+    "language": "pl",
+    "notes": "Polish, clear speech"
+  },
+  {
+    "file": "macierz_pl.wav",
+    "expected": "dodaj macierz Eisenhowera",
+    "language": "pl",
+    "notes": "Polish, clear speech"
+  }    
+]

@@ -21,7 +21,4 @@ jobs:
 
       - uses: googleapis/release-please-action@v4
         with:
-          release-type: simple
-          initial-version: 0.1.0
-          bump-minor-pre-major: true
           token: ${{ steps.app-token.outputs.token }}
